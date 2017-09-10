@@ -1,0 +1,121 @@
+ .cake-canvas-box {
+     border: solid red 1px;
+     margin-top: 10px;
+ }
+ #cake-canvas-1 {
+     position: relative;
+      height: 400px;
+     top: -260px;
+
+    
+ }
+ .img1 {
+     margin-left: auto;
+     margin-right: auto;
+     height: 120px;
+     position: relative;
+ }
+ .img2 {
+     margin-left: auto;
+     margin-right: auto;
+     height: 120px;
+     position: relative;
+     top: -110px;
+ }
+ .cake-layers {
+     height: 50px;
+ }
+ #cake-canvas-layer-5,
+ #cake-canvas-layer-4,
+ #cake-canvas-layer-3,
+ #cake-canvas-layer-2,
+ #cake-canvas-layer-1 {
+     position: relative;
+ }
+ #cake-canvas-layer-1 {
+     top: -500px;
+     z-index: 9;
+ }
+ #cake-canvas-layer-2 {
+     top: -320px;
+     z-index: 10;
+ }
+ #cake-canvas-layer-3 {
+     top: -140px;
+     z-index: 11;
+ }
+ #cake-canvas-layer-4 {
+     top: 40px;
+     z-index: 12;
+ }
+ #cake-canvas-layer-5 {
+     top: 230px;
+     z-index: 13;
+ }
+ #cake-canvas-layer-2 .img1 {
+     padding: 5px 0px;
+ }
+ #cake-canvas-layer-3 .img1 {
+     padding: 10px 0px;
+ }
+ #cake-canvas-layer-4 .img1 {
+     padding: 15px 0px;
+ }
+ #cake-canvas-layer-5 .img1 {
+     padding: 20px 0px;
+ }
+ #cake-canvas-layer-1 .img2 {
+     padding: 5px 0px;
+ }
+ #cake-canvas-layer-2 .img2 {
+     padding: 10px 0px;
+ }
+ #cake-canvas-layer-3 .img2 {
+     padding: 15px 0px;
+ }
+ #cake-canvas-layer-4 .img2 {
+     padding: 20px 0px;
+ }
+ #cake-canvas-layer-5 .img2 {
+     padding: 25px 0px;
+ }
+ .tools>a .icon {
+     display: inline-block;
+     font-size: 10px;
+     margin-right: 10px;
+     vertical-align: middle;
+ }
+ #item-container {
+     height: 200px;
+     overflow: scroll;
+ }
+ .tools-step-1 {
+     list-style: none;
+     margin-top: 50px;
+     display: inline;
+ }
+ .tools-step-1 li {
+     display: inline;
+ }
+ .tools-step-2 {
+     list-style: none;
+     margin-top: 50px;
+     display: inline;
+ }
+ .tools-step-2 li {
+     display: inline;
+ }
+ .cake-layer-box {
+     margin: 10px;
+     text-align: center;
+     margin: auto;
+ }
+ .bg_y {
+     
+     border: solid 1px grey;
+ }
+ .btn-cb:hover {
+     color:#ffffff ;
+     background-color:#ff9800 ;
+     border-color: #ff9800;
+ }

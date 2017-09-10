@@ -1,0 +1,142 @@
+.front_view,
+.rear_view {
+    position: relative;
+    height: 400px;
+    border: 1px solid grey;
+    padding: 0px 50px;
+}
+.layer-box {
+    position: absolute;
+}
+.decor-box {
+    position: absolute;
+    top: 25px;
+}
+.layer1,
+.layer2,
+.layer3,
+.layer4,
+.layer5 {
+    position: relative;
+    height: 100px;
+}
+.layer1 {
+    z-index: 1;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    top: -200px
+}
+.layer2 {
+    z-index: 2;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    top: -160px
+}
+.layer3 {
+    z-index: 3;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    top: -115px;
+}
+.layer4 {
+    z-index: 4;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    top: -60px;
+}
+.layer5 {
+    z-index: 5;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+}
+/*tools*/
+
+.wizard-control {
+    margin-top: 20px;
+}
+.selected {
+    border: 1px #ef6262 solid !important;
+    z-index: 100;
+}
+.btn-selected {
+    border: 2px #ef6262 solid !important;
+}
+#layer-container,
+#decor-container,
+#topping-container {
+    height: 150px;
+    overflow: scroll;
+    position: relative;
+    border: 1px solid grey;
+}
+.cake-box,
+.decor-holder,
+.topping-box {
+    height: 130px !important;
+    overflow: hidden;
+    border: solid 2px  #3d3c3c;
+     background-color: #ef6262;
+}
+}
+.cake-box {
+    margin-bottom: 5px;
+}
+.decor-holder {
+    margin-bottom: 5px;
+}
+.topping-box {
+    margin-bottom: 5px;
+}
+.box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    cursor: pointer;
+}
+.thumb-img-box {
+    background-color: #3d3c3c !important;
+}
+.details {
+    text-align: center;
+    background-color: #ef6262;
+    color: #fff;
+    padding: 4px;
+}
+.front-view-layer-selector {
+    list-style: none;
+    padding: -20px !important;
+}
+.front-view-layer-selector li {
+    display: inline;
+}
+/* tab */
+
+.nav-tabs>li a {
+    padding: 15px 10px !important;
+    margin-right: 0;
+    min-width: 40px;
+    text-align: center;
+    border-radius: 0;
+    color: #555;
+    border-width: 0;
+}
+.nav-tabs>li.active {
+    position: relative;
+    background: #ef6262 !important;
+}
+.modal-content {
+    color: #555;
+}
+.nav-tabs>li.active a,
+.nav-tabs>li.active a:focus,
+.nav-tabs>li.active a:hover {
+    background: #ef6262 !important;
+    color: #fff !important;
+}

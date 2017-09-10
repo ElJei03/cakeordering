@@ -1,0 +1,22 @@
+UPDATE cake_layer_1 SET image_path = REPLACE(image_path, 'localhost:8012', 'localhost');
+UPDATE cake_layer_1 SET top_view = REPLACE(top_view, 'localhost:8012', 'localhost');
+
+
+UPDATE cake_layer_2 SET image_path = REPLACE(image_path, 'localhost:8012', 'localhost');
+UPDATE cake_layer_2 SET top_view = REPLACE(top_view, 'localhost:8012', 'localhost');
+
+UPDATE cake_layer_3 SET image_path = REPLACE(image_path, 'localhost:8012', 'localhost');
+UPDATE cake_layer_3 SET top_view = REPLACE(top_view, 'localhost:8012', 'localhost');
+
+
+UPDATE cake_layer_4 SET image_path = REPLACE(image_path, 'localhost:8012', 'localhost');
+UPDATE cake_layer_4 SET top_view = REPLACE(top_view, 'localhost:8012', 'localhost');
+
+
+UPDATE cake_layer_5 SET image_path = REPLACE(image_path, 'localhost:8012', 'localhost');
+UPDATE cake_layer_5 SET top_view = REPLACE(top_view, 'localhost:8012', 'localhost');
+
+
+
+UPDATE side_decorations SET image_path = REPLACE(image_path, 'localhost:8012', 'localhost');
+UPDATE other_toppings SET image_path = REPLACE(image_path, 'localhost:8012', 'localhost');

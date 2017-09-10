@@ -35,7 +35,11 @@ class CORE_model extends CI_Model
 
 
 
+function modify_all(){
+    
+      return $this->db->update($this->table, $this);
 
+}
 
 
 

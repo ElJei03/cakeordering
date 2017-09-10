@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Amaretti</title>
+    <link rel="stylesheet" type="text/css" href="../assets/lib/stroke-7/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/lib/jquery.nanoscroller/css/nanoscroller.css"/><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+     <link href="../assets/plugins/notify/pnotify.core.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assets/lib/theme-switcher/theme-switcher.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/lib/font-awesome/css/font-awesome.min.css"/>
+    <link type="text/css" href="../assets/css/style.css" rel="stylesheet">  
+    <link type="text/css" href="../assets/css/main.css" rel="stylesheet">  
+    
+    
+</head>
+  <body class="am-splash-screen">
+    <div class="am-wrapper am-login am-signup">
+      <div class="am-content">
+        <div class="main-content">
+          <div class="login-container sign-up">
+            <div class="panel panel-default">
+              <div class="panel-heading"><img src="../assets/img/cake-log.png" alt="logo" width="100px" height="100px" class="logo-img"><span>Please enter your user information.</span></div>
+              <div class="panel-body">
+               
+                  <form id="form_signup" action="https://foxythemes.net/preview/products/amaretti/index.php" parsley-validate="" novalidate="" method="get" class="form-horizontal">
+                      
+                  <div id="loader-modal" class=""></div>
+                      
+                  <div class="title"><span>Sign up with</span></div>
+                  <div class="sign-up-form"> 
+                    <div class="form-group row social-signup">
+                      <div class="col-xs-6">
+                        <button type="button" class="btn btn-block btn-social btn-facebook"><i class="fa fa-facebook icon icon-left"></i> Facebook</button>
+                      </div>
+                      <div class="col-xs-6">
+                        <button type="button" class="btn btn-block btn-social btn-google-plus"><i class="fa fa-google icon icon-left"></i> Google</button>
+                      </div>
+                    </div>
+                    <div class="title"><span class="title">Or</span></div>
+                      
+                      
+                      
+                    <div class="form-group row">
+                      <div class="col-xs-6">
+                         <div id="cust_fname_handler" class="input-group"><span class="input-group-addon"><i class="icon s7-info"></i></span>
+                            <input type="text" id="cust_fname" name="cust_fname" data-parsley-trigger="change" data-parsley-errors-messages-disabled="true" data-parsley-class-handler="#cust_fname_handler" required placeholder="First Name" autocomplete="off" class="form-control"  data-error-msg="Firstname is required.">
+                        </div>
+                      </div>
+                      <div class="col-xs-6 ">
+                         <div id="cust_lname_handler" class="input-group"><span class="input-group-addon"><i class="icon s7-info"></i></span>
+                            <input type="text" id="cust_lname" name="cust_lname" data-parsley-trigger="change" data-parsley-errors-messages-disabled="true" data-parsley-class-handler="#cust_lname_handler" required placeholder="Last Name" autocomplete="off" class="form-control" data-error-msg="Lastname is required.">
+                        </div>
+                      </div>
+                    </div>
+                      
+                      
+                      
+                    <div class="form-group">
+                      <div id="cust_email_handler" class="input-group"><span class="input-group-addon"><i class="icon s7-mail"></i></span>
+                        <input type="email" id="cust_email" name="cust_email" data-parsley-trigger="change" data-parsley-errors-messages-disabled="true" data-parsley-class-handler="#cust_email_handler" required placeholder="E-mail" autocomplete="off" class="form-control" data-error-msg="Email is required."   >
+                      </div>
+                    </div>
+                      
+                    <div class="form-group">
+                      <div id="contact_no_handler" class="input-group"><span class="input-group-addon"><i class="icon s7-phone"></i></span>
+                        <input type="number"  id="contact_no" name="contact_no" data-parsley-trigger="change" data-parsley-errors-messages-disabled="true" data-parsley-class-handler="#contact_no_handler" required placeholder="Contact #" autocomplete="off" class="form-control" data-error-msg="Contact is required.">
+                      </div>
+                    </div>
+                      
+                    <div class="form-group">
+                      <div id="cust_uname_handler" class="input-group"><span class="input-group-addon"><i class="icon s7-user"></i></span>
+                        <input type="text" id="cust_uname" name="cust_uname" data-parsley-trigger="change" data-parsley-errors-messages-disabled="true" data-parsley-class-handler="#cust_uname_handler" required placeholder="Username" autocomplete="off" class="form-control" data-error-msg="Username is required.">
+                      </div>
+                    </div>
+                      
+                      
+                    <div class="form-group row">
+                      <div class="col-xs-6">
+                        <div id="cust_pword_handler" class="input-group"><span class="input-group-addon"><i class="icon s7-lock"></i></span>
+                          <input type="password" id="cust_pword" name = "cust_pword"  data-parsley-errors-messages-disabled="true" placeholder="Password" data-parsley-class-handler="#cust_pword_handler" required class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-xs-6">
+                        <div id="confirm-handler" class="input-group"><span class="input-group-addon"><i class="icon s7-lock"></i></span>
+                          <input type="password" id="cust_cpword" name="cust_cpword"parsley-equalto="#pass1"  data-parsley-errors-messages-disabled="true" data-parsley-class-handler="#confirm-handler" required placeholder="Confirm" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    
+                          <input type="checkbox" id="remember" class="needsclick">
+                          <label class="conditions"  for="remember">Send SMS Verification Code</label>
+                       
+                    <!--submit-->
+                    <button id = "btn_sign_up" type="button" class="btn btn-block btn-primary btn-lg">Sign Up</button>
+                        <!--submit-->
+                    <a href="../" class="btn btn-block btn-info btn-lg btn-social btn-facebook" style="color: #ffffff">Log me in</a>  
+                      
+                    <button id="verification_modal" data-toggle="modal" data-target="#form-bp1" type="button" class="btn btn-space btn-primary hide">Basic Form</button>
+                      
+                </form>
+                  
+                  
+                  
+              </div>
+            </div>
+            <div class="text-center out-links"><a href="http://cake-system.jdevsolution.com/">@ Cake System</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+     
+      
+      
+      
+ <div id="form-bp1" tabindex="-1" role="dialog" class="modal fade modal-colored-header">
+      <div class="modal-dialog custom-width">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" data-dismiss="modal" aria-hidden="true" class="close md-close"><i class="icon s7-close"></i></button>
+            <h3 class="modal-title">Form Modal</h3>
+          </div>
+          <div class="modal-body form">
+            <p>
+             Type your 5 letter Verification Code
+            </p>
+            <div class="form-group">
+              <label>Verification Code</label>
+              <input id= "vcode-text" type="text" placeholder="xxxxx" class="form-control">
+            </div>
+           
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal" class="btn btn-default md-close">Cancel</button>
+            <button id="btn_modal_proceed"type="button" class="btn btn-primary ">Proceed</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+      
+    <script src="../assets/lib/jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="../assets/lib/jquery.nanoscroller/javascripts/jquery.nanoscroller.min.js" type="text/javascript"></script>
+    <script src="../assets/js/main.js" type="text/javascript"></script>
+    <script src="../assets/lib/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../assets/lib/theme-switcher/theme-switcher.min.js" type="text/javascript"></script>
+    <script src="../assets/lib/parsley/parsley.min.js" type="text/javascript"></script>
+      
+    <!--EL JEI JS-->
+    <script src="../assets/js/signup.script.js" type="text/javascript"></script>
+    <script src="../assets/js/main.script.js" type="text/javascript"></script>
+      
+    <!-- PNotify -->
+    <script type="text/javascript" src="../assets/plugins/notify/pnotify.core.js"></script>
+    <script type="text/javascript" src="../assets/plugins/notify/pnotify.buttons.js"></script>
+    <script type="text/javascript" src="../assets/plugins/notify/pnotify.nonblock.js"></script>
+
+      
+    <script type="text/javascript">
+      $(document).ready(function(){
+        //initialize the javascript
+       // Main.init();
+      	SignUpCustomer.init();
+      });
+    </script>
+      
+    
+  </body>
+
+
+</html>

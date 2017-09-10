@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Cake Ordering - Agreement Management</title>
+      <script src="../../assets-apps/js/validate_token.js"></script>
+      <link rel="stylesheet" type="text/css" href="../../assets-apps/lib/stroke-7/style.css"/>
+      <link rel="stylesheet" type="text/css" href="../../assets-apps/lib/jquery.nanoscroller/css/nanoscroller.css"/>
+      <link rel="stylesheet" type="text/css" href="../../assets-apps/lib/datatable/css/dataTables.bootstrap.min.css"/>
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <link rel="stylesheet" type="text/css" href="../../assets-apps/lib/summernote/summernote.css"/>
+      <link rel="stylesheet" type="text/css" href="../../assets-apps/lib/font-awesome/css/font-awesome.min.css"/>
+      <link rel="stylesheet"  type="text/css" href="../../assets-apps/plugins/notify/pnotify.core.css"/>
+      <!-- notification -->
+      <link rel="stylesheet"  type="text/css" href="../../assets-apps/plugins/datapicker/datepicker3.css"/>
+      <link rel="stylesheet"  type="text/css" href="../../assets-apps/css/style.css"/>
+      <link rel="stylesheet"  type="text/css" href="../../assets-apps/css/custom.css"/>
+   </head>
+   <body>
+      <div class="am-wrapper">
+      <div id="template"></div>
+      <div class="am-content">
+         <div class="page-head">
+            <h2>Agreement Management</h2>
+            <ol class="breadcrumb">
+               <li><a href="#">Management</a></li>
+               <li class="active">Agreement Management</li>
+            </ol>
+         </div>
+         <div class="main-content">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="panel-group">
+                     <div class="panel">
+                        <div class="panel-heading">
+                           <h4 class="panel-title">
+                           </h4>
+                        </div>
+                        <div class="panel-body">
+                           <div class="col-lg-6"> </div>
+                           <div class="col-lg-12">
+                              <div id="container-message">
+                                 <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                       <div class="tools"><button id="btn_view"  type="button" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-pencil"></i>Edit</button>    </div>
+                                       <span class="title"> <span>
+                                       <b><i class="glyphicon glyphicon-th"></i> Agreement Message</b> 
+                                       </span></span>
+                                    </div>
+                                    <div class="panel-body">
+                                       <div id="view">
+                                    
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div id="container-message-editor" style="display: none">
+                                 <div id="container-message">
+                                    <div class="panel panel-primary">
+                                       <div class="panel-heading">
+                                          <div class="tools"><button id="btn_save"  type="button" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-ok"></i>Save</button>  
+                                             <button id="btn_close"  type="button" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-remove"></i>Close</button> 
+                                          </div>
+                                          <span class="title"> <span>
+                                          <b><i class="glyphicon glyphicon-th"></i> Agreement Message</b> 
+                                          </span></span>
+                                       </div>
+                                       <div class="panel-body">
+                                          <div class="summernote"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script type="text/javascript" src="../../assets-apps/lib/jquery/jquery.min.js" ></script>
+      <script type="text/javascript" src="../../assets-apps/js/template.script.js"></script>
+      <script type="text/javascript" src="../../assets-apps/lib/jquery.nanoscroller/javascripts/jquery.nanoscroller.min.js"></script>
+      <script type="text/javascript" src="../../assets-apps/js/main.js" ></script>
+      <script type="text/javascript" src="../../assets-apps/lib/bootstrap/dist/js/bootstrap.min.js" ></script>
+      <!-- PNotify -->
+      <script type="text/javascript" src="../../assets-apps/plugins/notify/pnotify.core.js"></script>
+      <script type="text/javascript" src="../../assets-apps/plugins/notify/pnotify.buttons.js"></script>
+      <script type="text/javascript" src="../../assets-apps/plugins/notify/pnotify.nonblock.js"></script>
+      <script type="text/javascript" src="../../assets-apps/lib/datatable/js/datatable.js"></script>
+      <script type="text/javascript" src="../../assets-apps/lib/datatable/js/datatable-bootstrap.js"></script>
+      <script type="text/javascript" src="../../assets-apps/lib/datatable/js/datatable-tabletools.js"></script>
+      <script src="../../assets-apps/lib/summernote/summernote.min.js" type="text/javascript"></script>
+      <script src="../../assets-apps/lib/summernote/summernote-ext-amaretti.js" type="text/javascript"></script>
+      <!-- Data picker -->
+      <script type="text/javascript" src="../../assets-apps/plugins/datapicker/bootstrap-datepicker.js"></script>
+      <script type="text/javascript" src="../../assets-apps/js/agreement_management.script.js"></script>
+      <script type="text/javascript" src="../../assets-apps/js/global.script.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function(){
+          //initialize the javascript
+          App.init();
+            
+        
+
+         });
+      </script>
+   </body>
+</html>

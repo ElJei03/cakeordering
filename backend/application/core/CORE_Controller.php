@@ -46,4 +46,11 @@ class CORE_Controller extends CI_Controller
         echo $this->security->get_csrf_hash(); // for the value   
     }
     
+
+    function json_output($response){
+        $this->output
+        ->set_content_type('application/json')
+        ->set_header('Access-Control-Allow-Origin:* ')
+        ->set_output($response);
+    }
 }
